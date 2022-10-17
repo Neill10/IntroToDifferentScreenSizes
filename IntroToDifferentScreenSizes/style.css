@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+/* This will change the color of the body element to yellow if the width of the page is less than 601 px*/
+@media  screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+    
+}
+/* This will change the color of the body element to lightblue if the width of the page is 601 px or more*/
+@media  screen and (min-width: 601px) {
+    body{
+        background-color: lightblue;
+    }
+}
